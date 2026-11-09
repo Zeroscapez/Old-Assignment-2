@@ -1,5 +1,8 @@
 ﻿
-
+int big = int.MaxValue;
+Console.WriteLine(big);
+big++;
+Console.WriteLine(big);
 Console.Write("What is the bill total? ");
 if (!decimal.TryParse(Console.ReadLine(), out decimal billSubTotal) || billSubTotal <= 0)
 {
